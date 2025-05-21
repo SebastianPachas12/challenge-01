@@ -7,11 +7,12 @@ main {
     text-align: center;
     border-radius: 18px;
     width: 450px;
+    overflow: hidden; /*Para que se borre todo lo que se sobresalga del border-radius*/
 }
 
 #primer-img {
     width: 100%;
-    height: 300px;    
+    height: 200px;
 }
 
 h1 {
@@ -30,15 +31,14 @@ h1 {
     margin: 15px 35px;
     display: flex;
     border-radius: 18px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(235, 235, 235);
 }
 
-.primer-div>h2{
-    font-size: 20px;
-}
-
-.primer-div>p{
-    font-size: 20px;
+#segunda-p{
+    font-size: 17px;
+    padding-left: 80px;
+    text-decoration: underline;
+    color: rgb(39, 36, 223);
 }
 
 .primer-div>img {
@@ -46,6 +46,16 @@ h1 {
     margin: 15px;
 }
 
+.columna-medio>h2 {
+    
+    margin: 15px 0px 0px;
+    font-size: 20px;
+}
+
+.columna-medio>p {
+    margin: 0px;
+    font-size: 17px;
+}
 
 .segundo-div {
     padding: 10px 50px;
@@ -58,8 +68,8 @@ h1 {
     height: 35px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    
+    font-size: 13px;
+    font-weight: 900;
 }
 
 #primer-button{
